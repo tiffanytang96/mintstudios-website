@@ -1,32 +1,89 @@
 @import url("https://fonts.googleapis.com/css?family=Allura|Cormorant+Garamond:400,700|Raleway:400,700&display=swap");
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 img {
   max-width: 100%;
-  height: auto;
-}
+  height: auto; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 body, p {
-  font-family: "Raleway", sans-serif;
-}
+  font-family: "Raleway", sans-serif; }
 
 h1, h2, h3, nav, table {
-  font-family: "Cormorant Garamond", serif;
-}
+  font-family: "Cormorant Garamond", serif; }
 
 h1, h2, h3, p {
-  margin-top: 0;
-}
+  margin: 0; }
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("../images/index-table-bg.jpg");
+  background-size: cover;
+  background-position: center 40%; }
+  @media (min-width: 35em) {
+    body {
+      background-position: center 45%; } }
+  @media (min-width: 67.5em) {
+    body {
+      background-position: center 47%; } }
+  body header {
+    height: 100%;
+    position: relative; }
+  body .home-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px; }
+    body .home-logo img {
+      width: 140px; }
+  body .home-name, body .home-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; }
+  body .home-name {
+    padding-right: 11%;
+    margin-top: 60px;
+    color: #3a3434; }
+    body .home-name h1 {
+      font-size: 1.3em; }
+    body .home-name h2 {
+      font-size: 1em; }
+  body .home-nav {
+    padding-right: 10%;
+    line-height: 1.7; }
+    body .home-nav ul {
+      list-style-type: none;
+      text-align: right; }
+    body .home-nav a {
+      text-decoration: none;
+      color: #3a3434;
+      padding: 3px 5px; }
+      body .home-nav a:hover {
+        background-color: rgba(58, 52, 52, 0.2);
+        color: #f8f9fa; }
+  body .home-sm-icons {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    body .home-sm-icons ul {
+      padding: 0;
+      list-style-type: none;
+      width: 300px;
+      display: flex;
+      justify-content: space-evenly; }
+    body .home-sm-icons a {
+      font-size: 1.2em;
+      color: #f8f9fa;
+      transition: color 0.2s ease-in; }
+      body .home-sm-icons a:hover {
+        color: #3a3434; }
 
 /*# sourceMappingURL=styles.css.map */
