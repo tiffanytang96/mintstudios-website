@@ -1,0 +1,26 @@
+// Variables
+
+// Font
+@import url('https://fonts.googleapis.com/css?family=Allura|Cormorant+Garamond:400,700|Raleway:400,700&display=swap');
+
+// Fancy font
+$allura: 'Allura';
+// Header 
+$comorant: 'Cormorant Garamond', serif;
+// Body
+$raleway: 'Raleway',sans-serif;
+
+// Colors
+$off-white: #f8f9fa;
+$white: #ffffff;
+$pink: #e8dadb;
+$dark-color: #3a3434;
+
+// Media Query Breakpoints
+
+@function em($px,$bc: 16){
+    @return #{$px/$bc}em;
+}
+$mobileScreen: em(320);
+$tabletScreen: em(560);
+$desktopScreen: em(1080);

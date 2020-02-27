@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Allura|Cormorant+Garamond:400,700|Raleway:400,700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  margin: 0;
+}
+
+body, p {
+  font-family: "Raleway", sans-serif;
+}
+
+h1, h2, h3, nav, table {
+  font-family: "Cormorant Garamond", serif;
+}
+
+h1, h2, h3, p {
+  margin-top: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
