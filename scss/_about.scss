@@ -1,0 +1,22 @@
+// About Page Styles
+
+.about-intro-banner {
+    width: 100%;
+    height: 100%;
+    margin-top: 120px;
+    padding: 5% 25%;
+    background-color: $off-white;
+    
+    .about-intro-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            font-size: $header-font;
+        }
+        p {
+            font-size: $body-font;
+        }
+    }
+}
