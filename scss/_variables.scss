@@ -11,7 +11,7 @@ $comorant: 'Cormorant Garamond', serif;
 $raleway: 'Raleway',sans-serif;
 // font sizes
 $header-font: 1.8em;
-$body-font: 0.6em;
+$body-font: 0.9em;
 $nav-font: 1.2em;
 
 // Colors
@@ -21,8 +21,11 @@ $pink: #e8dadb;
 $dark-pink: #a87074;
 $dark-color: #3a3434;
 
-// Media Query Breakpoints
+// Padding variables
+$body-padding: 5% 15%;
+$body-padding-lg: 5% 37%;
 
+// Media Query Breakpoints
 @function em($px,$bc: 16){
     @return #{$px/$bc}em;
 }

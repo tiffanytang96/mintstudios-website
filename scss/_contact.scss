@@ -15,20 +15,20 @@
             align-items: center;
             margin-bottom: 70px;
 
-        p {
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            font-size: $body-font;
-        }
+            p {
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-size: 0.6em;
+            }
 
-        h2 {
-            font-size: $header-font;
+            h2 {
+                font-size: $header-font;
 
-            span {
-                font-size: 0.7em;
+                span {
+                    font-size: 0.7em;
+                }
             }
         }
-    }
     }
         
 }
