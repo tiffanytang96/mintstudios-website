@@ -1,3 +1,4 @@
+
 .contact-wrapper {
 
         .contact-intro-content {
@@ -22,11 +23,15 @@
     }
 }
 
-.body {
+.body-section {
     padding: 0 15px;
-    color: $dark-color;
+
+    @include mq($desktopScreen) {
+        display: flex;
+    }
 
     .contact-side-banner {
+        margin: 0 auto;
 
         h2 {
             text-transform: uppercase;
@@ -36,6 +41,25 @@
     
         p {
             text-align: center;
+            max-width: 500px;
+            margin: 0 auto;
+
+            @include mq ($tabletScreen) {
+                max-width: 350px;
+            }
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+
+            @include mq($tabletScreen) {
+                max-width: 500px;
+            }
+
+            @include mq($desktopScreen) {
+                max-width: 400px;
+            }
         }
     
     }
@@ -49,9 +73,11 @@
     padding: 20px;
     display: flex;
     justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
 
     @include mq($desktopScreen) {
-        width: 100%;
+        min-width: 600px;
     }
 
     .c-main label, .c-main input, .c-main textarea {
@@ -67,10 +93,6 @@
         outline: none;
         max-width: 300px;
         border: 1px solid rgb(216, 216, 216);
-
-        @include mq($tabletScreen) {
-            display: block;
-        }
     }
 
     .c-main input[type="text"]:focus, .c-main input[type="tel"]:focus, .c-main textarea:focus {
