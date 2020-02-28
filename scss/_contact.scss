@@ -38,6 +38,8 @@
 
     @include mq($desktopScreen) {
         display: flex;
+        justify-content: space-around;
+        margin: 0 25%;
     }
 
     .contact-side-banner {

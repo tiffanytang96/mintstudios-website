@@ -293,7 +293,9 @@ h1, h2, h3, p {
   padding: 0 15px; }
   @media (min-width: 67.5em) {
     .body-section {
-      display: flex; } }
+      display: flex;
+      justify-content: space-around;
+      margin: 0 25%; } }
   .body-section .contact-side-banner {
     margin: 0 auto; }
     .body-section .contact-side-banner h2 {
