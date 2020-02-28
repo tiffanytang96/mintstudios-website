@@ -4,30 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Mint Studios</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 <div class="wrapper">
 <div class="header">
-    <div class="header-bar">
+    <div class="header-bar-mobile">
         <div class="logo">
-            <img src="" alt=""> <!--INSERT LOGO HERE-->
-        </div>  
-        <div class="nav">
-            <div class="hamurger-icon">
-                <div class="ham-bar"></div>
-                <div class="ham-bar"></div>
-                <div class="ham-bar"></div>
-            </div> <!--end of hamburger-icon-->
-            <nav>
+            <img class="logo-img" src="images/logo/logo-black.png" alt="Mint Studios"> <!--INSERT LOGO HERE-->
+        </div>
+        <div class="hamurger-icon button_container" id="toggle">
+            <span class="ham-bar top"></span>
+            <span class="ham-bar middle"></span>
+            <span class="ham-bar bottom"></span>
+        </div> <!--end of hamburger-icon-->
+
+        <div class="overlay" id="overlay">
+            <nav class="overlay-menu">
                 <ul>
-                    <li><a href="#about"></a>About</li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#rates"></a>Rates</li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="rates.html">Rates</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
-    </div> <!--end of header-bar-->
+    </div><!--end of header-bar-->
+    <div class="header-bar-desktop">
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a class="logo-a" href="index.html"><img class="logo-img" src="images/logo/logo-black.png" alt="Mint Studios"></a></li>
+                <li><a href="rates.html">Rates</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
     <div class="header-banner">
          <div class="banner-text">
             <h2>Meet our team!</h2>
@@ -95,5 +108,8 @@
 </footer>
 
 </div> <!--end of wrapper-->
+
+<script src="scripts/jquery-3.4.1.min.js"></script>
+<script src="scripts/scripts.js"></script>
 </body>
 </html>
