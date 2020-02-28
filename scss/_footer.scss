@@ -1,0 +1,51 @@
+footer {
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    .flower-stamp {
+        flex: 1;
+        padding-top: 87px;
+    }
+
+    img {
+        max-height: 100px;
+    }
+
+    .copyright {
+        text-align: center;
+        background-color: $pink;
+        width: 100%;
+        height: 70px;
+
+        p {
+            text-transform: uppercase;
+            font-size: 0.6em;
+            margin-top: 12px;
+        }
+
+        .social-media-icons {
+            margin: 0 auto;
+            width: 300px;
+
+            ul {
+                list-style-type: none;
+                display: flex;
+                justify-content: space-evenly;
+                margin: 0;
+            }
+
+            a {
+                line-height: 3;
+                color: $off-white;
+                transition: color 0.2s ease-in;
+
+                &:hover {
+                    color: $dark-color;
+                }
+            }
+        }
+    }
+}

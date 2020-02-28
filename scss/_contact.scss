@@ -1,0 +1,104 @@
+.contact-wrapper {
+
+        .contact-intro-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 70px;
+
+        p {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.6em;
+        }
+
+        h2 {
+            font-size: 1.8em;
+
+            span {
+                font-size: 0.7em;
+            }
+        }
+    }
+}
+
+.body {
+    padding: 0 15px;
+    color: $dark-color;
+
+    .contact-side-banner {
+
+        h2 {
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+    
+        p {
+            text-align: center;
+        }
+    
+    }
+    
+
+}
+
+.form {
+
+    background-color: lighten($pink, 8.5);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+    @include mq($desktopScreen) {
+        width: 100%;
+    }
+
+    .c-main label, .c-main input, .c-main textarea {
+        margin: 15px 0;
+        width: 100%;
+    }
+
+
+    .c-main input, .c-main textarea {
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 7px 0;
+        outline: none;
+        max-width: 300px;
+        border: 1px solid rgb(216, 216, 216);
+
+        @include mq($tabletScreen) {
+            display: block;
+        }
+    }
+
+    .c-main input[type="text"]:focus, .c-main input[type="tel"]:focus, .c-main textarea:focus {
+        background-color: white;
+
+    }
+
+    .pref-method, .add-features, .service-list {
+        p {
+            margin-top: 35px; 
+            margin-bottom: 10px;
+        }
+    }
+
+    .add-features.feature {
+        width: 100%;
+
+    }
+
+    .message {
+        padding-top: 35px;
+    }
+
+    .submit input {
+        padding: 10px 30px;
+        background-color: lighten($dark-color, 9);
+        color: $off-white;
+        border: none;
+    }
+    
+}

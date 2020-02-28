@@ -1,4 +1,4 @@
-body {
+.pg-home {
     height: 100vh;
     overflow: hidden;
     background-image: url('../images/index-table-bg.jpg');
@@ -62,8 +62,7 @@ body {
             padding: 3px 5px;
         
             &:hover {
-                background-color: rgba($dark-color, 0.2);
-                color: $off-white;
+                text-decoration: underline;
             }
         }
     }

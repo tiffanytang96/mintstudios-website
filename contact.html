@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Mint Studios</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/2ed8842fee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="contact-wrapper">
+    <div class="header">
+        <div class="header-bar">
+            <div class="logo">
+                <img src="images/logo/logo-black.png" alt="Mint Studios">
+            </div>  
+            <div class="nav">
+                <div class="hamurger-icon">
+                    <div class="ham-bar"></div>
+                    <div class="ham-bar"></div>
+                    <div class="ham-bar"></div>
+                </div> <!--end of hamburger-icon-->
+                <nav>
+                    <ul>
+                        <li><a href="#about"></a>About</li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#rates"></a>Rates</li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div> <!--end of nav-->
+        </div> <!--end of header-bar-->
+        <div class="contact-intro-banner">
+            <div class="contact-intro-content">
+                <p>Now booking for</p>
+                <h2>~ 2020 <span>&amp;</span> 2021 ~</h2>
+            </div>
+        </div>
+    </div> <!--end of header-->
+    
+    <div class="body">
+
+        <div class="contact-side-banner">
+            <div class="contact-side-content">
+                <h2>Mint Studios</h2>
+                <p>I can't wait to see how I can serve you during this special season. Please send me a note and I'll be in touch shortly!</p>
+                <img src="images/contact-border.png" alt="Wedding flowers">
+            </div> <!--end of contact-side-content-->
+        </div> <!--end of contact-side-banner-->
+
+        <div class="form">
+            <form action="/" method="POST" name="contact">
+                <div class="c-main name-input">
+                    <div class="first-name">
+                        <label for="fn">First Name</label>
+                        <input id="fn" type="text" name="first-name" required>
+                    </div>
+                    <div class="last-name">
+                        <label for="ln">Last Name</label>
+                        <input id="ln" type="text" name="last-name" required>
+                    </div>
+                </div><!--end of name-input-->
+                <div class="c-main email-input">
+                    <label for="em">Email</label>
+                    <input id="em" type="text" name="em" required>
+                </div><!--end of email-input-->
+                <div class="c-main phone-input">
+                    <label for="ph">Phone Number</label>
+                    <input id="ph" type="tel" id="ph" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </div><!--end of phone-number-->
+                <div class="pref-method">
+                    <p>Select your preferred method of contact</p>
+                    <input id="email" type="radio" name="pref-method">
+                    <label for="email">Email</label>
+                    <input id="phone" type="radio" name="pref-method">
+                    <label for="phone">Phone</label>
+                </div><!--end of pref-method-->
+                <div class="add-features">
+                    <p>Additional features</p>
+                    <div class="feature">
+                        <input id="rt" type="checkbox" name="add-features">
+                        <label for="rt">Retouching</label>
+                    </div>
+                    <div class="feature">
+                        <input id="fil" type="checkbox" name="add-features">
+                        <label for="fil">Filters</label>
+                    </div>
+                    <div class="feature">
+                        <input id="osp" type="checkbox" name="add-features">
+                        <label for="osp">On-site printing</label>
+                    </div>
+                    <div class="feature">
+                        <input id="ud" type="checkbox" name="add-features">
+                        <label for="ud">Unlimited downloads</label>
+                    </div>
+                    <div class="feature">
+                        <input id="add-pho" type="checkbox" name="add-features">
+                        <label for="add-pho">Additional photographer</label>
+                    </div>
+                </div><!--end of add-features-->
+                <div class="service-list">
+                    <p>Select your service</p>
+                    <select name="service" id="service-list">
+                        <option value="none">Choose your service</option>
+                        <option value="w">Weddings</option>
+                        <option value="e">Events</option>
+                        <option value="p">Portraits</option>
+                    </select>
+                </div><!--end of service-list-->
+                <div class="c-main message">
+                    <label for="msg">Message</label>
+                    <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div><!--end of form-->
+    
+    </div> <!--end of body-->
+    
+    <footer>
+        <div class="flower-stamp">
+            <img src="images/leaf.png" alt="Leaf outline">      
+        </div> <!--end of flower-stamp-->
+        <div class="copyright">
+            <p>&copy; Copyright 2020 Mint Studios | Designed by Wynonna and Tiffany</p>
+            <div class="social-media-icons">
+                <ul>
+                    <a href="#0"><li><i class="fab fa-facebook fa-lg"></i></li></a>
+                    <a href="#0"><li><i class="fab fa-instagram fa-lg"></i></li></a>
+                    <a href="#0"><li><i class="fab fa-twitter fa-lg"></i></li></a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+</div> <!--end of wrapper-->      
+</body>
+</html>
