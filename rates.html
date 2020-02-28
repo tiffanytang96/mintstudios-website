@@ -4,109 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rates | Mint Studios</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-<div class="wrapper">
-    <div class="header">
-        <div class="header-bar">
-            <div class="logo">
-                <img src="" alt=""> <!--INSERT LOGO HERE-->
-            </div>  
-            <div class="nav">
-                <div class="hamurger-icon">
-                    <div class="ham-bar"></div>
-                    <div class="ham-bar"></div>
-                    <div class="ham-bar"></div>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header-bar-mobile">
+                <div class="logo">
+                    <img class="logo-img" src="images/logo/logo-black.png" alt="Mint Studios"> <!--INSERT LOGO HERE-->
+                </div>
+                <div class="hamurger-icon button_container" id="toggle">
+                    <span class="ham-bar top"></span>
+                    <span class="ham-bar middle"></span>
+                    <span class="ham-bar bottom"></span>
                 </div> <!--end of hamburger-icon-->
-                <nav>
+
+                <div class="overlay" id="overlay">
+                    <nav class="overlay-menu">
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="rates.html">Rates</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div><!--end of header-bar-->
+            <div class="header-bar-desktop">
+                <nav class="desktop-nav">
                     <ul>
-                        <li><a href="#about"></a>About</li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#rates"></a>Rates</li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a class="logo-a" href="index.html"><img class="logo-img" src="images/logo/logo-black.png" alt="Mint Studios"></a></li>
+                        <li><a href="rates.html">Rates</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
-        </div> <!--end of header-bar-->
-        <div class="header-banner">
+            <div class="header-banner">
                 <div class="banner-text">
-                <h2>Meet our team!</h2>
-                <p>Wynonna and Tiffany's philosophy is to create photos that will bring moments alive in your mind as they happened.</p>
+                    <h2>Meet our team!</h2>
+                    <p>Wynonna and Tiffany's philosophy is to create photos that will bring moments alive in your mind as they happened.</p>
                 </div> <!--end of banner-text-->
-        </div> <!--end of header-banner-->
-    </div> <!--end of header-->
-    
-    <div class="body">
-    
-        <div class="rates-intro">
-            <h2>Rates</h2>
-            <p>In order to provide my couples with the a tailored experience I take on a limited number of weddings per year.</p>
-        </div>
+            </div> <!--end of header-banner-->
 
-        <div class="rates-cards">
-            <div class="rate rate-weddings">
-                <h3>Weddings</h3>
-                <div class="rate-list">
-                    <ul>
-                        <li>Engagement shoot</li>
-                        <li>Engagement video</li>
-                        <li>Pre-wedding consulation</li>
-                        <li>Wedding day coverage</li>
-                        <li>Wedding day video: short</li>
-                        <li>Wedding day video: full</li>
-                        <li>Custom music</li>
-                        <li>Filters</li>
-                        <li>Retouching</li>
-                        <li>High resolution images</li>
-                        <li>USB of photos provided</li>
-                    </ul>
-                </div> <!--end of rate-list--> 
-            </div> <!--end of rate-weddings-->
-            <div class="rate rate-events">
-                <h3>Events</h3>
-                <div class="rate-list">
-                    <ul>
-                        <li>Pre-event day consulation</li>
-                        <li>Event day coverage</li>
-                        <li>Event day video: short</li>
-                        <li>Event day video: full</li>
-                        <li>Custom music</li>
-                        <li>Filters</li>
-                        <li>Retouching</li>
-                        <li>High resolution images</li>
-                        <li>USB of photos provided</li>
-                    </ul>
-                </div> <!--rate-list-->
-            </div> <!--end of rate-events-->
-            <div class="rate rate-portraits">
-                <h3>Portraits</h3>
-                <div class="rate-list">
-                    <ul>
-                        <li>Pre-day consulation</li>
-                        <li>Day coverage</li>
-                        <li>On-site printing (additional $250)</li>
-                        <li>Filters</li>
-                        <li>Online gallery (2 year limit)</li>
-                        <li>High resolution images</li>
-                        <li>USB of photos provided</li>
-                    </ul>
-                </div> <!--end of rate-list-->
-            </div> <!--end of rate-portraits-->
-        </div>
+        </div> <!-- end of header -->
+    
+        <div class="body">
+        
+            <div class="rates-intro">
+                <h2>Rates</h2>
+                <p>In order to provide my couples with the a tailored experience I take on a limited number of weddings per year.</p>
+            </div>
 
-    </div> <!--end of body-->
-    
-    <footer>
-        <div class="flower-stamp">
-            <img src="" alt="">       <!--INSERT PHOTO-->
-        </div> <!--end of flower-stamp-->
-        <div class="copyright">
-            <p>&copy; Copyright 2020 Mint Studios | Designed by Wynonna and Tiffany</p>
-        </div>
-        <div class="social-media-icons">
-        </div>
-    </footer>
-    
-</div> <!--end of wrapper-->
+            <div class="rates-cards">
+                <div class="rate rate-weddings">
+                    <h3>Weddings</h3>
+                    <div class="rate-list">
+                        <ul>
+                            <li>Engagement shoot</li>
+                            <li>Engagement video</li>
+                            <li>Pre-wedding consulation</li>
+                            <li>Wedding day coverage</li>
+                            <li>Wedding day video: short</li>
+                            <li>Wedding day video: full</li>
+                            <li>Custom music</li>
+                            <li>Filters</li>
+                            <li>Retouching</li>
+                            <li>High resolution images</li>
+                            <li>USB of photos provided</li>
+                        </ul>
+                    </div> <!--end of rate-list--> 
+                </div> <!--end of rate-weddings-->
+                <div class="rate rate-events">
+                    <h3>Events</h3>
+                    <div class="rate-list">
+                        <ul>
+                            <li>Pre-event day consulation</li>
+                            <li>Event day coverage</li>
+                            <li>Event day video: short</li>
+                            <li>Event day video: full</li>
+                            <li>Custom music</li>
+                            <li>Filters</li>
+                            <li>Retouching</li>
+                            <li>High resolution images</li>
+                            <li>USB of photos provided</li>
+                        </ul>
+                    </div> <!--rate-list-->
+                </div> <!--end of rate-events-->
+                <div class="rate rate-portraits">
+                    <h3>Portraits</h3>
+                    <div class="rate-list">
+                        <ul>
+                            <li>Pre-day consulation</li>
+                            <li>Day coverage</li>
+                            <li>On-site printing (additional $250)</li>
+                            <li>Filters</li>
+                            <li>Online gallery (2 year limit)</li>
+                            <li>High resolution images</li>
+                            <li>USB of photos provided</li>
+                        </ul>
+                    </div> <!--end of rate-list-->
+                </div> <!--end of rate-portraits-->
+            </div>
+
+        </div> <!--end of body-->
+        
+        <footer>
+            <div class="flower-stamp">
+                <img src="" alt="">       <!--INSERT PHOTO-->
+            </div> <!--end of flower-stamp-->
+            <div class="copyright">
+                <p>&copy; Copyright 2020 Mint Studios | Designed by Wynonna and Tiffany</p>
+            </div>
+            <div class="social-media-icons">
+            </div>
+        </footer>
+            
+    </div> <!--end of wrapper-->
+
+<script src="scripts/jquery-3.4.1.min.js"></script>
+<script src="scripts/scripts.js"></script>
 </body>
 </html>
