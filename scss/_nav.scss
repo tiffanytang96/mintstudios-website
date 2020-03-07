@@ -29,6 +29,7 @@ $button-width: 30px;
       left: 0;
       margin: 0 auto;
       background-color: $white;
+      z-index: 5;
 
       @include mq($desktopScreen){
         display: none;
@@ -36,12 +37,13 @@ $button-width: 30px;
 
       .logo {
         margin: 0 auto;
-        padding-top: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
       }
       .button_container {
         position: fixed;
-        top: 2%;
-        right: 2%;
+        top: 5%;
+        right: 5%;
         height: $button-height;
         width: $button-width;
         cursor: pointer;
@@ -188,7 +190,7 @@ $button-width: 30px;
     .header-bar-desktop {
       display: none;
       position: fixed;
-      width: 100vw;
+      width: 100%;
       height: auto;
       text-align: center;
       top: 0;
@@ -210,6 +212,7 @@ $button-width: 30px;
           padding: 0;
 
           li {
+            width: -webkit-fill-available;
             @include flatten(true,false);
 
               a {

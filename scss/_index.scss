@@ -1,7 +1,7 @@
 .pg-home {
     height: 100vh;
     overflow: hidden;
-    background-image: url('../images/index-table-bg.jpg');
+    background-image: url('../images/nathan-dumlao-5BB_atDT4oA-unsplash.jpg');
     background-size: cover;
     background-position: center 40%;
 
@@ -37,13 +37,16 @@
     .home-name {
         padding-right: 11%;
         margin-top: 60px;
-        color: $dark-color;
 
         h1 {
             font-size: 1.3em;
+            color: $off-white;
+            text-shadow: 1.5px 1px $dark-color;
         }
         h2 {
             font-size: 1em;
+            color: $off-white;
+            text-shadow: 1.5px 1px $dark-color;
         }
     }
 
@@ -58,8 +61,9 @@
 
         a {
             text-decoration: none;
-            color: $dark-color;
+            color: $off-white;
             padding: 3px 5px;
+            text-shadow: 1.5px 1.5px $dark-color;
         
             &:hover {
                 text-decoration: underline;
