@@ -29,7 +29,7 @@ $button-width: 30px;
       left: 0;
       margin: 0 auto;
       background-color: $white;
-      z-index: 5;
+      z-index: 99;
 
       @include mq($desktopScreen){
         display: none;
@@ -39,6 +39,9 @@ $button-width: 30px;
         margin: 0 auto;
         padding-top: 5px;
         padding-bottom: 5px;
+
+        @include mq($desktopScreen){
+        }
       }
       .button_container {
         position: fixed;
@@ -197,6 +200,7 @@ $button-width: 30px;
       left: 0;
       margin: 0 auto;
       background-color: white;
+      z-index: 99;
 
       @include mq($desktopScreen){
         display: block;
@@ -210,11 +214,16 @@ $button-width: 30px;
           justify-content: space-evenly;
           align-items: center;
           padding: 0;
+          margin: 0;
 
           li {
             width: -webkit-fill-available;
             @include flatten(true,false);
 
+            .logo-a img {
+              padding-top: 10px;
+              padding-bottom: 5px;
+            }
               a {
                   text-decoration: none;
                   font-family: $comorant;
