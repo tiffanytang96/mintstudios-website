@@ -113,3 +113,33 @@
         }
     }
 }
+.instagram-section {
+    background-color: $off-white;
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    .instagram-title {
+        margin-bottom: 25px;
+        padding: 10% 25%;
+        h3 {
+            font-style: italic;
+            font-family: $allura;
+        }
+        h1 {
+            font-size: 1.8em;
+        }
+    }
+
+    .instagram-div {
+        width: auto;
+        height: auto;
+        margin: 15px;
+        border: 0.5px solid $dark-color;
+    }
+    .instagram-images {
+        // max-width: 90%;
+    }
+}
