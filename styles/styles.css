@@ -724,6 +724,7 @@ footer .copyright .social-media-icons a:hover {
 .instagram-section {
   background-color: #f8f9fa;
   margin-top: 10%;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
