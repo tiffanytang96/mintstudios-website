@@ -1,5 +1,5 @@
 footer {
-    min-height: 350px;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,6 +52,25 @@ footer {
                     color: $dark-color;
                 }
             }
+        }
+        .credits {
+            p{
+                margin: 0;
+                padding-bottom: 15px;
+                
+                a {
+                    text-decoration: none;
+                    color: $white;
+    
+                    &:hover,
+                    &:focus,
+                    &:active {
+                        color: $dark-color;
+                    }
+                }
+            }
+
+
         }
     }
 }
