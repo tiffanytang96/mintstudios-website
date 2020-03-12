@@ -115,7 +115,7 @@
 }
 .instagram-section {
     background-color: $off-white;
-    margin-top: 25%;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,7 +123,7 @@
 
     .instagram-title {
         margin-bottom: 25px;
-        padding: 10% 25%;
+        padding: 7% 25% 2% 25%;
         h3 {
             font-style: italic;
             font-family: $allura;
@@ -136,11 +136,40 @@
     .instagram-div {
         width: auto;
         height: auto;
-        margin: 15px;
-        border: 0.5px solid $dark-color;
-    }
-    .instagram-images img {
-        min-width: 100%;
-        
+        margin: 0 15px;
+        border: 0.5px solid $light-grey;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .instagram-gallery {
+            margin: 10px;
+            border: 0.5px solid $light-grey;
+
+            .instagram-images {
+                margin: 10px;
+               
+                img {
+                    min-width: 100%;
+                }
+            }
+        }
+        .instagram-handle {
+            position: absolute;
+            bottom: -15px;
+            width: 100%;
+             
+            p {
+                background-color: $pink;
+                padding: 18px 50px;
+                width: fit-content;
+                margin: 0 auto;
+                color: $dark-color;
+                font-size: 0.8em;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+        }
     }
 }

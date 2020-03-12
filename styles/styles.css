@@ -723,7 +723,7 @@ footer .copyright .social-media-icons a:hover {
 
 .instagram-section {
   background-color: #f8f9fa;
-  margin-top: 25%;
+  margin-top: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -731,7 +731,7 @@ footer .copyright .social-media-icons a:hover {
 }
 .instagram-section .instagram-title {
   margin-bottom: 25px;
-  padding: 10% 25%;
+  padding: 7% 25% 2% 25%;
 }
 .instagram-section .instagram-title h3 {
   font-style: italic;
@@ -743,11 +743,37 @@ footer .copyright .social-media-icons a:hover {
 .instagram-section .instagram-div {
   width: auto;
   height: auto;
-  margin: 15px;
-  border: 0.5px solid #3a3434;
+  margin: 0 15px;
+  border: 0.5px solid #888888;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
-.instagram-section .instagram-images img {
+.instagram-section .instagram-div .instagram-gallery {
+  margin: 10px;
+  border: 0.5px solid #888888;
+}
+.instagram-section .instagram-div .instagram-gallery .instagram-images {
+  margin: 10px;
+}
+.instagram-section .instagram-div .instagram-gallery .instagram-images img {
   min-width: 100%;
+}
+.instagram-section .instagram-div .instagram-handle {
+  position: absolute;
+  bottom: -15px;
+  width: 100%;
+}
+.instagram-section .instagram-div .instagram-handle p {
+  background-color: #e8dadb;
+  padding: 18px 50px;
+  width: fit-content;
+  margin: 0 auto;
+  color: #3a3434;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .portfolio-header {
