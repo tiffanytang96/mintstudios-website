@@ -266,6 +266,7 @@ h1, h2, h3, p {
   background-image: url("../images/home-bg.jpg");
   background-size: cover;
   background-position: center 40%;
+  background-repeat: no-repeat;
 }
 @media (min-width: 35em) {
   .pg-home {
@@ -330,6 +331,7 @@ h1, h2, h3, p {
   bottom: 0;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 .pg-home .home-sm-icons ul {
   padding: 0;
@@ -344,6 +346,19 @@ h1, h2, h3, p {
   transition: color 0.2s ease-in;
 }
 .pg-home .home-sm-icons a:hover {
+  color: #3a3434;
+}
+.pg-home .home-sm-icons .credits p {
+  margin: 0;
+  padding-bottom: 15px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.9em;
+}
+.pg-home .home-sm-icons .credits p a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.pg-home .home-sm-icons .credits p a:hover, .pg-home .home-sm-icons .credits p a:focus, .pg-home .home-sm-icons .credits p a:active {
   color: #3a3434;
 }
 
