@@ -1,0 +1,69 @@
+.credits-body-section {
+    margin-top: 130px;
+    
+    .row {
+        display: flex;
+        justify-content: space-evenly;
+        
+        .artist-container {
+            max-width: 400px;
+            margin-bottom: 30px;
+            position: relative;
+            display: block;
+
+            img {
+                display: block;
+            }
+
+            .name p {
+                transition: opacity 0.6s ease;
+                opacity: 0;
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                bottom: 0;
+                left: 0;
+                color: white;
+                background-color: rgba(0,0,0,0.8);
+                padding: 20px;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                white-space: nowrap;
+                font-size: 0.8em;
+            }
+
+            .name a {
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: bold;
+                border: 1px solid white;
+                padding: 4px;
+                white-space: pre-wrap;
+                text-align: center;
+                font-family: $comorant;
+
+                &:hover {
+                    background-color: rgba(white, 0.5);
+                }
+            }
+
+            &:hover .name p,
+            &:focus .name p,
+            &:active .name p {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
